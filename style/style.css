@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+}
+img{
+    height: 344px;
+    width: 344px;
+    object-fit: cover;
+    position: absolute;
+    right: 50%;
+    top: 20%;
+    transform: translate(50%);
+}
+.hero h1{
+    color: wheat;
+    font-size: 86px;
+}
+.hello-text{
+    position: relative;
+    color: white;
+    font-family: cursive;
+    margin-left: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+.text{
+    position: absolute;
+    right: 50%;
+    top: 40%;
+    transform: translateX(-200px);
+}
+.hello-text::before{
+    content: '';
+    height: 1px;
+    width: 40px;
+    background: white;
+    position: absolute;
+    margin-left: -3rem;
+}
+.b-text{
+    color: rgb(5, 167, 29);
+}
